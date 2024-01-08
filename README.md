@@ -7,7 +7,7 @@
 
 ```GetCookBook``` ( ```file_name_list``` , ```our_product_list``` ).```get_cook_book_dict()```
 
-```file_name_list``` - список наименований файлов TXT
+```file_name_list``` - список наименований файлов txt
 
 ```our_product_list``` - список блюд (по умолчанию заполняется полный перечень блюд из файла recipes.txt)
 
@@ -127,7 +127,7 @@ get_shop_list_by_dishes(person_count = 2)
 
 ```TextInfo``` ( ```file_name_list``` ).```print_info()```
 
-```file_name_list``` - список наименований файлов TXT
+```file_name_list``` - список наименований файлов txt
 
 Пример вызова метода get_cook_book_dict приведен ниже:
 ```python
