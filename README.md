@@ -56,7 +56,7 @@ print(my_CookBook2)
 
 ```get_shop_list_by_dishes``` ( ```dishes``` , ```person_count``` )
 
-```dishes``` - список блюд из словаря cook_book (по умолчанию заполняются все блюда, указанные в словаре cook_book)
+```dishes``` - список блюд из словаря cook_book (по умолчанию заполняются все блюда из словаря cook_book)
 
 ```person_count``` - список блюд (по умолчанию заполняется одна персона)
 
