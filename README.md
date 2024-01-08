@@ -39,6 +39,19 @@ print(my_CookBook1)
 my_CookBook2 = GetCookBook(['recipes.txt'], ['Запеченный картофель', 'Омлет', 'Утка по-пекински']).get_cook_book_dict()
 print(my_CookBook2)
 ```
+```
+# Результат:
+{'Запеченный картофель': [{'ingredient_name': 'Картофель', 'quantity': 1, 'measure': 'кг'},
+{'ingredient_name': 'Чеснок', 'quantity': 3, 'measure': 'зубч'},
+{'ingredient_name': 'Сыр гауда', 'quantity': 100, 'measure': 'г'}],
+'Омлет': [{'ingredient_name': 'Яйцо', 'quantity': 2, 'measure': 'шт'},
+{'ingredient_name': 'Молоко', 'quantity': 100, 'measure': 'мл'},
+{'ingredient_name': 'Помидор', 'quantity': 2, 'measure': 'шт'}],
+'Утка по-пекински': [{'ingredient_name': 'Утка', 'quantity': 1, 'measure': 'шт'},
+{'ingredient_name': 'Вода', 'quantity': 2, 'measure': 'л'},
+{'ingredient_name': 'Мед', 'quantity': 3, 'measure': 'ст.л'},
+{'ingredient_name': 'Соевый соус', 'quantity': 60, 'measure': 'мл'}]}
+```
 
 ## Задача № 2. Построение функции get_shop_list_by_dishes
 Функция get_shop_list_by_dishes построена. Данная функция предполагает задействование функционала классов OpenFiles (чтение текстового файла), GetCookBook (выведение словаря cook_book) и GetShopList (выведение списка ингридиентов на основе словаря cook_book). Результат работы - возможность вызова функции get_shop_list_by_dishes.
