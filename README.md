@@ -21,18 +21,7 @@ print(GetCookBook(['recipes.txt']).get_cook_book_dict())
 print('Словарь cook_book (выборочная версия):')
 print(GetCookBook(['recipes.txt'], ['Запеченный картофель', 'Омлет', 'Утка по-пекински']).get_cook_book_dict())
 ```
-```python
-print('Словарь cook_book (проверка на ошибки - ввод отсутствующих блюд):')
-print(GetCookBook(['recipes.txt'], ['Биг мак', 'Роял чизбургер', 'Картошка фри', 'Фахитос']).get_cook_book_dict())
-```
-```python
-print('Словарь cook_book (проверка на ошибки - отсутствие списка блюд):')
-print(GetCookBook(['recipes.txt'], 'Hello world!').get_cook_book_dict())
-```
-```python
-print('Словарь cook_book (проверка на ошибки - пустой список):')
-print(GetCookBook(['recipes.txt'], []).get_cook_book_dict())
-```
+
 ## Задача № 2. Построение функции get_shop_list_by_dishes
 Текст
 
