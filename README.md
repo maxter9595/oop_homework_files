@@ -18,7 +18,6 @@ my_CookBook1 = GetCookBook(['recipes.txt']).get_cook_book_dict()
 print(my_CookBook1)
 ```
 ```
-# Результат:
 {'Омлет': [{'ingredient_name': 'Яйцо', 'quantity': 2, 'measure': 'шт'},
 {'ingredient_name': 'Молоко', 'quantity': 100, 'measure': 'мл'},
 {'ingredient_name': 'Помидор', 'quantity': 2, 'measure': 'шт'}],
@@ -40,7 +39,6 @@ my_CookBook2 = GetCookBook(['recipes.txt'], ['Запеченный картоф�
 print(my_CookBook2)
 ```
 ```
-# Результат:
 {'Запеченный картофель': [{'ingredient_name': 'Картофель', 'quantity': 1, 'measure': 'кг'},
 {'ingredient_name': 'Чеснок', 'quantity': 3, 'measure': 'зубч'},
 {'ingredient_name': 'Сыр гауда', 'quantity': 100, 'measure': 'г'}],
