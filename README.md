@@ -7,7 +7,7 @@
 
 GetCookBook(```file_name_list``` , ```our_product_list```).get_cook_book_dict()
 
-```file_name_list``` - список наименований файлов TXT (при необходимости указывается путь к файлам)
+```file_name_list``` - список наименований файлов TXT
 
 ```our_product_list``` - список блюд (по умолчанию заполняется полный перечень блюд, содержащийся в файле recipes.txt)
 
