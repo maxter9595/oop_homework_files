@@ -64,14 +64,61 @@ print(my_CookBook2)
 ```python
 get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)
 ```
+```
+{'Картофель': {'measure': 'кг', 'quantity': 2},
+'Молоко': {'measure': 'мл', 'quantity': 200},
+'Помидор': {'measure': 'шт', 'quantity': 4},
+'Сыр гауда': {'measure': 'г', 'quantity': 200},
+'Чеснок': {'measure': 'зубч', 'quantity': 6},
+'Яйцо': {'measure': 'шт', 'quantity': 4}}
+```
 ```python
 get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'])
+```
+```
+{'Картофель': {'measure': 'кг', 'quantity': 1},
+'Молоко': {'measure': 'мл', 'quantity': 100},
+'Помидор': {'measure': 'шт', 'quantity': 2},
+'Сыр гауда': {'measure': 'г', 'quantity': 100},
+'Чеснок': {'measure': 'зубч', 'quantity': 3},
+'Яйцо': {'measure': 'шт', 'quantity': 2}}
 ```
 ```python
 get_shop_list_by_dishes()
 ```
+```
+{'Винный уксус': {'measure': 'ст.л', 'quantity': 1},
+'Вода': {'measure': 'л', 'quantity': 2},
+'Говядина': {'measure': 'г', 'quantity': 500},
+'Картофель': {'measure': 'кг', 'quantity': 1},
+'Лаваш': {'measure': 'шт', 'quantity': 2},
+'Мед': {'measure': 'ст.л', 'quantity': 3},
+'Молоко': {'measure': 'мл', 'quantity': 100},
+'Перец сладкий': {'measure': 'шт', 'quantity': 1},
+'Помидор': {'measure': 'шт', 'quantity': 4},
+'Соевый соус': {'measure': 'мл', 'quantity': 60},
+'Сыр гауда': {'measure': 'г', 'quantity': 100},
+'Утка': {'measure': 'шт', 'quantity': 1},
+'Чеснок': {'measure': 'зубч', 'quantity': 3},
+'Яйцо': {'measure': 'шт', 'quantity': 2}}
+```
 ```python
 get_shop_list_by_dishes(person_count = 2)
 ```
-
+```
+{'Винный уксус': {'measure': 'ст.л', 'quantity': 2},
+'Вода': {'measure': 'л', 'quantity': 4},
+'Говядина': {'measure': 'г', 'quantity': 1000},
+'Картофель': {'measure': 'кг', 'quantity': 2},
+'Лаваш': {'measure': 'шт', 'quantity': 4},
+'Мед': {'measure': 'ст.л', 'quantity': 6},
+'Молоко': {'measure': 'мл', 'quantity': 200},
+'Перец сладкий': {'measure': 'шт', 'quantity': 2},
+'Помидор': {'measure': 'шт', 'quantity': 8},
+'Соевый соус': {'measure': 'мл', 'quantity': 120},
+'Сыр гауда': {'measure': 'г', 'quantity': 200},
+'Утка': {'measure': 'шт', 'quantity': 2},
+'Чеснок': {'measure': 'зубч', 'quantity': 6},
+'Яйцо': {'measure': 'шт', 'quantity': 4}}
+```
 
