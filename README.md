@@ -33,3 +33,7 @@ print(GetCookBook(['recipes.txt'], 'Hello world!').get_cook_book_dict())
 print('Словарь cook_book (проверка на ошибки - пустой список):')
 print(GetCookBook(['recipes.txt'], []).get_cook_book_dict())
 ```
+## Задача № 2. Построение функции get_shop_list_by_dishes
+Текст
+
+
