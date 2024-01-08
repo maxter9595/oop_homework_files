@@ -5,7 +5,7 @@
 ## Задача № 1. Создание словаря cook_book
 Словарь cook_book создан. Для его формирования были задействованы классы OpenFiles (чтение текстового файла recipes.txt) и GetCookBook (выведение словаря cook_book). Результат работы - возможность вызова словаря cook_book через метод get_cook_book_dict. Структура вызова:
 
-GetCookBook(```file_name_list``` , ```our_product_list```). get_cook_book_dict()
+_GetCookBook_(```file_name_list``` , ```our_product_list```)._get_cook_book_dict_()
 
 ```file_name_list``` - список наименований файлов TXT
 
