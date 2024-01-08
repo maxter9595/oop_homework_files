@@ -14,10 +14,10 @@
 Примеры вызова метода get_cook_book_dict представлены ниже:
 
 ```python
-print(GetCookBook(['recipes.txt']).get_cook_book_dict())
+GetCookBook(['recipes.txt']).get_cook_book_dict()
 ```
 ```python
-print(GetCookBook(['recipes.txt'], ['Запеченный картофель', 'Омлет', 'Утка по-пекински']).get_cook_book_dict())
+GetCookBook(['recipes.txt'], ['Запеченный картофель', 'Омлет', 'Утка по-пекински']).get_cook_book_dict()
 ```
 
 ## Задача № 2. Построение функции get_shop_list_by_dishes
