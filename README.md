@@ -11,14 +11,12 @@
 
 ```our_product_list``` - список блюд (по умолчанию заполняется полный перечень блюд из файла recipes.txt)
 
-Проверка работоспособности вызова метода get_cook_book_dict представлена ниже:
+Примеры вызова метода get_cook_book_dict представлены ниже:
 
 ```python
-print('Словарь cook_book (полная версия):')
 print(GetCookBook(['recipes.txt']).get_cook_book_dict())
 ```
 ```python
-print('Словарь cook_book (выборочная версия):')
 print(GetCookBook(['recipes.txt'], ['Запеченный картофель', 'Омлет', 'Утка по-пекински']).get_cook_book_dict())
 ```
 
