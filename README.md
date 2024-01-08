@@ -3,7 +3,7 @@
 Решение [домашнего задания](https://github.com/netology-code/py-homeworks-basic/tree/master/7.files) приведено в файле Files.py.
 
 ## Задача № 1. Создание словаря cook_book
-Словарь cook_book создан. Для его формирования были задействованы классы OpenFiles (чтение текстового файла recipes.txt) и GetCookBook (выведение словаря cook_book). Результат работы - возможность вызова словаря cook_book через метод get_cook_book_dict. Структура вызова словаря cook_book:
+Словарь cook_book создан. Для его формирования были задействованы классы OpenFiles (чтение текстового файла recipes.txt) и GetCookBook (выведение словаря cook_book). Результат работы - возможность вызова словаря cook_book через метод get_cook_book_dict. Структура вызова:
 
 GetCookBook(```file_name_list``` , ```our_product_list```).get_cook_book_dict()
 
