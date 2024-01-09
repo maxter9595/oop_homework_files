@@ -60,7 +60,7 @@ print(my_CookBook2)
 
 ```person_count``` - список блюд (по умолчанию заполняется одна персона)
 
-Полный вид функции:
+Полный вид функции ```get_shop_list_by_dishes```:
 
 ```python
 def get_shop_list_by_dishes(dishes = None, person_count = 1):
