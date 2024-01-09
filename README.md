@@ -60,6 +60,19 @@ print(my_CookBook2)
 
 ```person_count``` - список блюд (по умолчанию заполняется одна персона)
 
+Полный вид функции:
+
+```python
+def get_shop_list_by_dishes(dishes = None, person_count = 1):
+  my_file_name_list = ['recipes.txt']
+  my_CookBook = GetCookBook(my_file_name_list, dishes)
+  my_ShopList = GetShopList(my_CookBook.file_name_list, my_CookBook.our_product_list)
+  if dishes is None:
+    print(my_ShopList.get_shop_list(person_count = person_count))
+  else:
+    print(my_ShopList.get_shop_list(dishes, person_count))
+```
+
 Примеры использования функции get_shop_list_by_dishes представлены ниже:
 ```python
 get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2)
